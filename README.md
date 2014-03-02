@@ -42,4 +42,4 @@ Credit
 ------
 
 - [kupriyanenko](https://github.com/kupriyanenko/jbone) for his wonderful repo which I used as boilerplate.
-- 
+- [HubSpot](https://github.com/HubSpot/YouMightNotNeedjQuery) for inspiration on how to implement jQuery methods in a concise way.
