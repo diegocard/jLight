@@ -1,0 +1,21 @@
+{
+  "name": "jLight",
+  "repo": "kupriyanenko/jLight",
+  "description": "JavaScript Library for DOM manipulation. Replacement jQuery for Backbone in browsers (2.5kb gzipped)",
+  "version": "1.0.7",
+  "keywords": [
+    "jquery",
+    "jLight",
+    "backbone",
+    "javascript",
+    "library"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "dist/jLight.js",
+  "scripts": [
+    "dist/jLight.js",
+    "dist/jLight.min.js"
+  ]
+}
