@@ -1,5 +1,5 @@
 /*!
- * jLight v0.0.1 - 2014-03-02 - Lightweight jQuery replacement compatible with Backbone.js
+ * jLight v0.0.1 - 2014-03-03 - Lightweight jQuery replacement compatible with Backbone.js
  *
  * https://github.com/diegocard/jLight
  *
@@ -657,6 +657,16 @@ jLight.fn.html = function(value) {
     }
 
     return this;
+};
+
+jLight.fn.add = function(selector) {
+  // TODO: Review, finish, write tests
+  var selection = jLight(selector),
+      self = this;
+  selection.forEach(function(element) {
+    self.push(element);
+  });
+  return this;
 };
 
 jLight.fn.append = function(appended) {

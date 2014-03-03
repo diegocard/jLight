@@ -14,6 +14,16 @@ jLight.fn.html = function(value) {
     return this;
 };
 
+jLight.fn.add = function(selector) {
+  // TODO: Review, finish, write tests
+  var selection = jLight(selector),
+      self = this;
+  selection.forEach(function(element) {
+    self.push(element);
+  });
+  return this;
+};
+
 jLight.fn.append = function(appended) {
     var i = 0,
         length = this.length,
