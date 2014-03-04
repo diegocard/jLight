@@ -13,9 +13,10 @@ Objectives
 Principles
 ----------
 
-- Completeness: strive to implement all or most of jQuery methods
-- Alternative: jQuery methods might not be implemented in the same way. Some edge cases might not be considered in favor of concise and intuitive coding.
-- Robustness: all methods should be tested and documented.
+- Completeness: strive to implement all or most of jQuery methods.
+- Efficiency: 99% of developers only make use of 10% of jQuery's functionalities. jLight is about concentrating only that 10%.
+- Lightweight: favor lightweight, performant and intuitive code. If a feature is not likely to be used, then don't add it.
+- Robust and well documented: all methods must be well tested and documented.
 
 Supported jQuery methods
 ------------------------
